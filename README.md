@@ -56,7 +56,9 @@ This allowed for the pages to be read into the for loop that scraped the html ab
 ### Step 5:
 
 The last thing I did was to write my scrape into a CSV, which I did that through a for loop.
-  
+
+ex.
+
 >for item in calenderList:
 	>c.writerow(item)
 >newfile.close()
