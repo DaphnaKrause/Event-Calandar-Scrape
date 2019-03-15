@@ -1,5 +1,5 @@
 # Event-Calendar-Web-Scrape
-How I scraped my cities event calendar(visitgainesville.com)[https://www.visitgainesville.com/events/]
+How I scraped my cities event calendar <a href="https://www.visitgainesville.com/events/" title="visitgainesville.com">visitgainesville.comy</a>
 
 ## The Plan
 I wanted to get a searchable list of events that were happening in Gainesville so I wouldn’t miss something important that needed to be reported on in my Newsroom.
@@ -23,8 +23,7 @@ h2 class=“tribe-events-list-event-title"
 - City was:
 <span class="tribe-locality"
 
-and URL Link:
-<a href="https://www.visitgainesville.com/venue/florida-museum-of-natural-history/" title="Florida Museum of Natural History">Florida Museum of Natural History</a>
+and URL Link: a href="https://www.visitgainesville.com/venue/florida-museum-of-natural-history/" title="Florida Museum of Natural History">Florida Museum of Natural History</a>
 
 ### Step 2:
 I then imported the libraries I needed (I ended up not using time, because the server didn’t need a sleep function.)
