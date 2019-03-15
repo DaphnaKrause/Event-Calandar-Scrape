@@ -37,7 +37,7 @@ I wrote a function then a for loop pinpointing the text in the HTML I posted abo
 I used `.get_text( )` on everything but the `href`
 `.strip( )` was used to take away extra \r\n\t that were being included in the spaces of code I was getting back, I used `.replace(‘\n’,’’)` to change` /n’s` I added to be spaces where I wanted spaces to be.
 
-At the end of this code block I commented my I took out my function  return of get_event( ) This is because my range in my loop below included this original url, starting at page=1 through page=10.
+At the end of this code block I commented my I took out my function  return of `get_event( )` This is because my range in my loop below included this original url, starting at page=1 through page=10.
 
 See next step for more information on this range.
 
@@ -59,8 +59,7 @@ The last thing I did was to write my scrape into a CSV, which I did that through
   
 >for item in calenderList:
 	>c.writerow(item)
-># close the file - end of function 
-newfile.close()
+>newfile.close()
 
 The thing that really helped me was that inspected the HTML on the page before hand to see which div/span tags I needed to target.
 
