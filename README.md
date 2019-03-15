@@ -1,7 +1,5 @@
-# Event-Calander-Scrape
-How I scraped my cities event calendar
-# Event Calendar Web Scrape
-How I scraped (visitgainesville.com)[https://www.visitgainesville.com/events/]
+# Event-Calendar-Web-Scrape
+How I scraped my cities event calendar(visitgainesville.com)[https://www.visitgainesville.com/events/]
 
 ## The Plan
 I wanted to get a searchable list of events that were happening in Gainesville so I wouldn’t miss something important that needed to be reported on in my Newsroom.
@@ -11,19 +9,19 @@ Usually I would have to be clicking through these pages at least every month so 
 ### Step 1: 
 I inspected the pages HTML finding out where the
 -Event_Name was:
--h2 class=“tribe-events-list-event-title"
+h2 class=“tribe-events-list-event-title"
 
 - Date_start was:
--<span class="tribe-event-date-start">
+<span class="tribe-event-date-start"
 
 - Date_end was:
--<span class="tribe-event-date-start">
+<span class="tribe-event-date-start"
 
 - Address was:
--<span class="tribe-street-address">
+<span class="tribe-street-address"
 
 - City was:
--<span class="tribe-locality">
+<span class="tribe-locality"
 
 and URL Link:
 <a href="https://www.visitgainesville.com/venue/florida-museum-of-natural-history/" title="Florida Museum of Natural History">Florida Museum of Natural History</a>
